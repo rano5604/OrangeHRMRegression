@@ -1,0 +1,7 @@
+page\com\LoginPage.class
+page\com\PIMPage.class
+utils\ExcelDataProvider.class
+page\com\DirectoryPage.class
+test\com\TextExecution.class
+utils\ReadExcelData.class
+utils\TestUtils.class
