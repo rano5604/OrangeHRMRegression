@@ -89,12 +89,12 @@ public class TextExecution {
 		dir.performSearch();
 	}
 	
-	/*
-	 * @Test(dependsOnMethods= {"performSearch"}) public void verifySearch() throws
-	 * Exception { DirectoryPage dir = new DirectoryPage(driver);
-	 * dir.verifySeach("Fahmud Kabir Islam","QA Engineer","Texas R&D","01711084452",
-	 * "rano56@gmail.com"); }
-	 */
+	
+	  @Test(dependsOnMethods= {"performSearch"}) public void verifySearch() throws
+	  Exception { DirectoryPage dir = new DirectoryPage(driver);
+	  dir.verifySeach("Fahmud Kabir Islam","QA Engineer","Texas R&D","01711084452",
+	  "rano56@gmail.com"); }
+	 
 	
 	@AfterClass
 	public void closeBrowser() {
