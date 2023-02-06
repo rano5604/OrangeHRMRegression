@@ -95,7 +95,11 @@ public class TextExecution {
 	  dir.verifySeach("Fahmud Kabir Islam","QA Engineer","Texas R&D","01711084452",
 	  "rano56@gmail.com"); }
 	 
-	
+	@Test
+	public void printStatus() {
+		System.out.println("Test Done!!!!!");
+	}
+	  
 	@AfterClass
 	public void closeBrowser() {
 		driver.quit();
