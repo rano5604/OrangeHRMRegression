@@ -98,6 +98,7 @@ public class TextExecution {
 	@Test
 	public void printStatus() {
 		System.out.println("Test Done!!!!!");
+		System.out.println("Test Done!!!!!");
 	}
 	  
 	@AfterClass
